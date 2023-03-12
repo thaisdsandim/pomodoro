@@ -1,0 +1,45 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #0db551;
+    margin: 0;
+    padding: 0;
+}
+
+.space {
+    text-align: center;
+}
+
+#timer {
+    margin-top: 50px;
+    font-size: 100px;
+}
+
+button {
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-width: 1px;
+    color: #0db551;
+    font-size: 20px;
+}
+
+#start {
+    margin-right: 10px;
+}
+
+#count {
+    margin-top: 20px;
+}
+
+.popup{
+    text-align: center;
+    margin-top: 50px;
+    background-color: black;
+}
+
+p {
+    background-color: black;
+    color: #0db551;
+    padding-top: 30px;
+}
