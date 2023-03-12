@@ -1,6 +1,7 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
+import React, { useState, useEffect } from "react";
+import useSound from "use-sound";
+import soundUrl from "./assets/sound/alarm.mp3";
+import "./assets/style/app.css"
 
 function App() {
   const [count, setCount] = useState(0)
@@ -28,7 +29,7 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
